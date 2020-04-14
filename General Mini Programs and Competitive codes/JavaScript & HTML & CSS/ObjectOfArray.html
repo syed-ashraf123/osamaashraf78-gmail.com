@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="jquery.js"></script>
+	<script>
+		var list=[{rollno:1001,name:"Ydav",Course:"B.tech"},{rollno:1002,name:"YAdav",Course:"B.techCS"},{rollno:1003,name:"Dav",Course:"B.techIT"},{rollno:1004,name:"WJv",Course:"B.techIIIt"}]
+	$(document).ready(function(){
+		$("#btn").click(function(){
+			var res="<table style='width:70%;' border='1'><tr><th>Roll</th><th>Name</th><th>Course</th></tr>";
+			for (var i=0;i<list.length;i++){
+				
+				res=res+"<tr><td>"+list[i].rollno+"</td><td>"+list[i].name+"<td>"+list[i].Course+"</td></tr>";
+				
+			}
+					res=res+"</table>"
+				$("#ok").html(res);
+
+			})
+		})
+	
+		</script>
+</head>
+<body>
+<span id="ok"></span>
+<button id="btn">Click ME</button>
+</body>
+</html>

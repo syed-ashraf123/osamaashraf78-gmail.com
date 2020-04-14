@@ -1,0 +1,29 @@
+<html>
+<head>
+<script>
+	function days()
+	{
+	var a=prompt("What is your age");
+	a=a*365;
+	var h=document.createElement('h1');
+	h.innerHTML=a;
+	document.body.appendChild(h);
+	h.setAttribute('id','ok');
+	}
+	function rsett()
+	{
+		var elem = document.getElementById("ok");
+ elem.parentNode.removeChild(elem);
+	//	element.parentNode.removeChild(h);
+	//document.getElementById('ok').innerHTML="";
+	//9+var h="";
+	}
+</script>
+</head>
+<body>
+<div>
+	<button onclick="days()">Click Me</button>
+	<button onclick="rsett()">Reset</button>
+</div>
+</body>
+</html>

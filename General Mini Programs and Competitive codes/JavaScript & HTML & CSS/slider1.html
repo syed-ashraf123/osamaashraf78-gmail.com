@@ -1,0 +1,22 @@
+<html>
+<head>
+<script>
+	var imgno=1;
+	function slider()
+	{
+		var img=document.getElementById('slide');
+		img.src="images/"+imgno+".jpg";
+		imgno=imgno+1;
+		if(imgno==4)
+		{
+			imgno=1;
+		}
+		window.setTimeout("slider()",1000);
+	}
+</script>
+</head>
+<body onload="slider()">
+	<img  height="300px" width="1000px" id="slide">
+
+</body>
+</html>

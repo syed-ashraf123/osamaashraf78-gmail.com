@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="jquery.js"></script>
+<script>
+	$(document).ready(function()
+	{
+	$("#btn").click(function(){
+		$("#t1").html(Object.values(student));
+		var res="";
+		res=res+student.rollno+"</br>";
+		res=res+student.name+"</br>";
+		res=res+student.Course+"</br>";
+		res=res+student.year+"</br>";
+		$("#t1").append("<br>"+res)+"</br>";
+	})
+	})
+	var student={rollno:1001,name:'Raj Sharma',Course:"B.tech",year:"Final Year"}
+
+</script>
+</head>
+<body>
+	<button id="btn">Heyyy</button>
+<span id="t1"></span>
+</body>
+</html>

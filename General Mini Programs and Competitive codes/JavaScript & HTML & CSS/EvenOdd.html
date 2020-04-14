@@ -1,0 +1,32 @@
+<html>
+<head>
+	<script>
+		document.getElementById('mn').innerHTML="nbnb"
+		function funn()
+		{
+			var b="<ul>";
+			var c="";
+			var a="";
+			for (var i = 1; i <=100; i++)
+				 {
+				if ((i%2)==0)
+				 {
+				 	a+="<li>"+i+"</li>";
+				 }
+				 else
+				 {
+				 	c+="<li>"+i+"</li>";
+				}
+
+				}
+				document.getElementById('n1').innerHTML="Even"+a+"Odd"+c;
+			b="</ul>";
+		}
+	</script>
+</head>
+<body>
+	<span id="mn"></span><br>
+<input type="button"  value="EvenOdd" onclick="funn()"><br>
+<span id="n1"></span>
+</body>
+</html>

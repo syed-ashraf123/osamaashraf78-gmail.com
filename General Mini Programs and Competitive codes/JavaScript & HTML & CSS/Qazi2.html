@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<script>
+		function okk()
+		{
+			var b=document.getElementById('ok').value;
+			var a=document.createElement('h1');
+			a.innerHTML=b;
+			document.body.appendChild(a);
+			a.setAttribute('id','new');
+
+		}
+		function reset()
+		 {
+			var c=document.getElementById('new');
+			c.parentNode.removeChild(c);
+		}
+	</script>
+	<title></title>
+</head>
+<body>
+What is your name?<input type="text" id="ok">
+<input type="button" onclick="okk()">
+<input type="button" onclick="reset()">
+</body>
+</html>

@@ -1,0 +1,506 @@
+#outer
+		{
+			height: 800px;
+			width:800px;
+			background-color: black;
+			margin: auto;
+			border: 1px solid black;
+		}
+		#row1
+		{
+        height: 100px;
+        
+		}
+		#row2
+		{
+        height: 100px;
+        }
+		#row3
+		{
+        height: 100px;
+        }
+		#row4
+		{
+        height: 100px;
+        }
+		#row5
+		{
+        height: 100px;
+        }
+		#row6
+		{
+        height: 100px;
+        }
+		#row7
+		{
+        height: 100px;
+        }
+		#row8
+		{
+        height: 100px;
+        }
+		#col1
+		{
+			width: 100px;
+			height: 100px;
+			float: left; 
+			background-color: black;
+		}
+		#col2
+		{
+			width: 100px;
+			height: 100px;
+			float: left;
+			background-color: white
+		}
+		#col3
+		{
+			width: 100px;
+			height: 100px;
+			float: left;
+			background-color: black;
+		}
+		#col4
+		{
+			width: 100px;
+			height: 100px;
+			float: left;
+			background-color: white
+		}
+		#col5
+		{
+			width: 100px;
+			height: 100px;
+			float: left;
+			background-color: black;
+		}
+		#col6
+		{
+			width: 100px;
+			height: 100px;
+			float: left; 
+			background-color: white;
+		}
+		#col7
+		{
+			width: 100px;
+			height: 100px;
+			float: left;
+			background-color: black;
+			
+		}
+		#col8
+		{
+			width: 100px;
+			height: 100px;
+			float: left;
+			background-color: white
+		}
+		#col9
+		{
+			width: 100px;
+			height: 100px;
+			float: left;
+			background-color: white;
+			
+		}
+		#col10
+		{
+			width: 100px;
+			height: 100px;
+			float: left;
+			background-color: black;
+		}
+		#col11
+		{
+			width: 100px;
+			height: 100px;
+			float: left;
+			background-color: white;
+			
+		}
+		#col12
+		{
+			width: 100px;
+			height: 100px;
+			float: left;
+			background-color: black;
+		}
+		#col13
+		{
+			width: 100px;
+			height: 100px;
+			float: left; 
+			background-color: white;
+		}
+		#col14
+		{
+			width: 100px;
+			height: 100px;
+			float: left;
+			background-color: black;
+			
+		}
+		#col15
+		{
+			width: 100px;
+			height: 100px;
+			float: left;
+			background-color: white;
+		}
+		#col16
+		{
+			width: 100px;
+			height: 100px;
+			float: left; 
+			background-color: black;
+		}
+		#col17
+		{
+			width: 100px;
+			height: 100px;
+			float: left; 
+			background-color: black;
+		}
+		#col18
+		{
+			width: 100px;
+			height: 100px;
+			float: left;
+			background-color: white;
+		}
+		#col19
+		{
+			width: 100px;
+			height: 100px;
+			float: left;
+			background-color: black;
+		}
+		#col20
+		{
+			width: 100px;
+			height: 100px;
+			float: left;
+			background-color: white;
+		}
+		#col21
+		{
+			width: 100px;
+			height: 100px;
+			float: left;
+			background-color: black;
+		}
+		#col22
+		{
+			width: 100px;
+			height: 100px;
+			float: left; 
+	        background-color: white
+		}
+		#col23
+		{
+			width: 100px;
+			height: 100px;
+			float: left;
+			background-color: black;
+			
+		}
+		#col24
+		{
+			width: 100px;
+			height: 100px;
+			float: left;
+			background-color: white
+		}
+		#col25
+		{
+			width: 100px;
+			height: 100px;
+			float: left;
+			background-color: white;
+			
+		}
+		#col26
+		{
+			width: 100px;
+			height: 100px;
+			float: left;
+			background-color: black;
+		}
+		#col27
+		{
+			width: 100px;
+			height: 100px;
+			float: left;
+			background-color: white;
+			
+		}
+		#col28
+		{
+			width: 100px;
+			height: 100px;
+			float: left;
+			background-color: black;
+		}
+		#col29
+		{
+			width: 100px;
+			height: 100px;
+			float: left; 
+			background-color: white;
+		}
+		#col30
+		{
+			width: 100px;
+			height: 100px;
+			float: left;
+			background-color: black;
+			
+		}
+		#col31
+		{
+			width: 100px;
+			height: 100px;
+			float: left;
+			background-color: white;
+		}
+		#col32
+		{
+			width: 100px;
+			height: 100px;
+			float: left; 
+			background-color: black;
+		}
+		#col33
+		{
+			width: 100px;
+			height: 100px;
+			float: left; 
+			background-color: black;
+		}
+		#col34
+		{
+			width: 100px;
+			height: 100px;
+			float: left;
+			background-color: white
+		}
+		#col35
+		{
+			width: 100px;
+			height: 100px;
+			float: left;
+			background-color: black;
+		}
+		#col36
+		{
+			width: 100px;
+			height: 100px;
+			float: left;
+			background-color: white
+		}
+		#col37
+		{
+			width: 100px;
+			height: 100px;
+			float: left;
+			background-color: black;
+		}
+		#col38
+		{
+			width: 100px;
+			height: 100px;
+			float: left; 
+			background-color: white;
+		}
+		#col39
+		{
+			width: 100px;
+			height: 100px;
+			float: left;
+			background-color: black;
+			
+		}
+		#col40
+		{
+			width: 100px;
+			height: 100px;
+			float: left;
+			background-color: white
+		}
+		#col41
+		{
+			width: 100px;
+			height: 100px;
+			float: left;
+			background-color: white;
+			
+		}
+		#col42
+		{
+			width: 100px;
+			height: 100px;
+			float: left;
+			background-color: black;
+		}
+		#col43
+		{
+			width: 100px;
+			height: 100px;
+			float: left;
+			background-color: white;
+		
+		}
+		#col44
+		{
+			width: 100px;
+			height: 100px;
+			float: left;
+			background-color: black;
+		}
+		#col45
+		{
+			width: 100px;
+			height: 100px;
+			float: left; 
+			background-color: white;
+		}
+		#col46
+		{
+			width: 100px;
+			height: 100px;
+			float: left;
+			background-color: black;
+			
+		}
+		#col47
+		{
+			width: 100px;
+			height: 100px;
+			float: left;
+			background-color: white;
+		}
+		#col48
+		{
+			width: 100px;
+			height: 100px;
+			float: left; 
+			background-color: black;
+		}
+		#col49
+		{
+			width: 100px;
+			height: 100px;
+			float: left; 
+			background-color: black;
+		}
+		#col50
+		{
+			width: 100px;
+			height: 100px;
+			float: left;
+			background-color: white
+		}
+		#col51
+		{
+			width: 100px;
+			height: 100px;
+			float: left;
+			background-color: black;
+		}
+		#col52
+		{
+			width: 100px;
+			height: 100px;
+			float: left;
+			background-color: white
+		}
+		#col53
+		{
+			width: 100px;
+			height: 100px;
+			float: left;
+			background-color: black;
+		}
+		#col54
+		{
+			width: 100px;
+			height: 100px;
+			float: left; 
+			background-color: white;
+		}
+		#col55
+		{
+			width: 100px;
+			height: 100px;
+			float: left;
+			background-color: black;
+			
+		}
+		#col56
+		{
+			width: 100px;
+			height: 100px;
+			float: left;
+			background-color: white
+		}
+		#col57
+		{
+			width: 100px;
+			height: 100px;
+			float: left;
+			background-color: white;
+			
+		}
+		#col58
+		{
+			width: 100px;
+			height: 100px;
+			float: left;
+			background-color: black;
+		}
+		#col59
+		{
+			width: 100px;
+			height: 100px;
+			float: left;
+			background-color: white;
+			
+		}
+		#col60
+		{
+			width: 100px;
+			height: 100px;
+			float: left;
+			background-color: black;
+		}
+		#col61
+		{
+			width: 100px;
+			height: 100px;
+			float: left; 
+			background-color: white;
+		}
+		#col62
+		{
+			width: 100px;
+			height: 100px;
+			float: left;
+			background-color: black;
+			
+		}
+		#col63
+		{
+			width: 100px;
+			height: 100px;
+			float: left;
+			background-color: white;
+		}
+		#col64
+		{
+			width: 100px;
+			height: 100px;
+			float: left; 
+			background-color: black;
+		}
+		

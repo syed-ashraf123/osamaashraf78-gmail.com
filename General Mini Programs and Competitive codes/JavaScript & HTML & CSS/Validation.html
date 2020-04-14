@@ -1,0 +1,30 @@
+<html>
+<head>
+<script src="jquery.js"></script>
+<script>
+	$(document).ready(function(){
+		$('#t1').keypress(function(a){
+		//	var a=$(this).val();
+		var b=a.which;
+		
+			if(b>=48 && b<=57)
+			{
+				a.preventDefault();
+				$('#r1').html("Wrong Input");
+
+			}
+			else
+			{
+				$("#r1").text("");
+			}
+
+		
+		})
+	})
+</script>
+</head>
+<body>
+<input type="text" id="t1"><br>
+<span id="r1"></span>
+</body>
+</html>

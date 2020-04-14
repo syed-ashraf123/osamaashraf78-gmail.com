@@ -1,0 +1,53 @@
+<html>
+<head>
+	<script>
+		
+			var a=new Array("Lucknow","Jaipur","Ludhiana");
+			var i;
+			function addcity()
+			{
+		
+				var d="";
+				var status=confirm("Will you bind cities?");
+				alert(status);
+				if(status==true)
+				{   
+				d+="<option>Select City</option>";
+					for (i = 0; i < a.length; i++)
+
+					 {
+						d+="<option>"+a[i]+"</option>";
+
+						
+					 }
+					 document.getElementById('c').innerHTML=d;
+				}
+
+			 	}
+			 	function huc(p)
+			 	 {
+			 	 	var d=p.value;
+			 	 	if (d=="Select City")
+			 	 	 {
+			 	 	 	//console.log("kkkk");
+			 	 	 	document.getElementById('New').innerText="Wrong Select";
+			 	 	 }
+			 	 	 else
+			 	 	 {
+			 		document.getElementById('New').innerText=d;
+			 		}
+			 	}
+
+			
+			
+		
+	</script>
+
+</head>
+<body>
+
+<input type="button" value="Bind Data" onclick="addcity()"><br>
+<select id="c" onchange="huc(this)" ></select><br>
+<span id="New"></span><br>
+</body>
+</html>

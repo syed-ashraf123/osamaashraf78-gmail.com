@@ -1,0 +1,21 @@
+<html>
+<head>
+<script src="jquery.js"></script>
+<script>
+	$(document).ready(function(){
+		$("#btn").click(function(){
+			var a=$('#t1').val();
+			var b=$('#t2').val();
+			$("#imgg").css({'height':a,'width':b});
+			
+		})
+	})
+</script>
+</head>
+<body>
+	<input type="text" id="t1"><br>
+	<input type="text" id="t2"><br>
+	<input type="button" value="click"  id="btn">
+<img id="imgg" src="jellyfish.jpg">
+</body>
+</html>

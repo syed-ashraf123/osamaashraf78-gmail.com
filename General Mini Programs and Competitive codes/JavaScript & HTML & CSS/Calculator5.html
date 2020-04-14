@@ -1,0 +1,32 @@
+<html>
+<head>
+	<script>
+		function sum()
+		{
+		document.getElementById('n3').value=parseInt(document.getElementById('n1').value)+parseInt(document.getElementById('n2').value);
+		}
+		function sub()
+		{
+		document.getElementById('n3').value=parseInt(document.getElementById('n1').value)-parseInt(document.getElementById('n2').value);
+		}
+		function mul()
+		{
+		document.getElementById('n3').value=parseInt(document.getElementById('n1').value)*parseInt(document.getElementById('n2').value);
+		}
+		function div()
+		{
+		document.getElementById('n3').value=parseInt(document.getElementById('n1').value)/parseInt(document.getElementById('n2').value);
+		}
+	</script>
+</head>
+<body>
+First No.<input type="number" id="n1"><br>
+Second No.<input type="number" id="n2"><br>
+<input type="button" value="+" onclick="sum()">&nbsp;
+<input type="button" value="-" onclick="sub()">&nbsp;
+<input type="button" value="*" onclick="mul()">&nbsp;
+<input type="button" value="/" onclick="div()">&nbsp;
+
+	<input type="number" id="n3">
+</body>
+</html>

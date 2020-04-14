@@ -1,0 +1,42 @@
+<html>
+<head>
+<script>
+	function validation()
+	{
+		var mob=document.getElementById("ok").value;
+		var status=false;
+		var span=document.getElementById("sp");
+				if (mob.length==10) 
+			{	
+				if(mob[0]=='9' || mob[0]=='8' || mob[0]=='7' || mob[0]=='6')
+				{
+					status=true;
+					span.innerText="";
+				}
+
+				else
+			{
+				
+				span.innerText="Invalid Number";
+
+			}
+			}
+			 else
+			{
+				
+				span.innerText="Invalid Number";
+
+			}	
+			//alert(status);
+			return status;
+	}
+</script>
+</head>
+<body>
+	<form action="code.py" onsubmit="return validation()">		
+Enter Any Number:<input type="number" id="ok"><br>
+<span style="color: red" id="sp"></span>
+<input type="submit" value="SUBMIT"><br>
+	</form>
+</body>
+</html>

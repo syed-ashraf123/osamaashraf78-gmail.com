@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script>
+
+		/*var a={};
+		a.movie="Dabang";
+		a.star="Salman";
+		a.date=13;
+		console.log(a);
+		console.log(a.date);
+		var b={movie:"Dabang",Star:"Salman",Date:13};
+		console.log(b);*/
+
+		function fun()
+		{
+		var c={};
+		c.Name=document.getElementById('name').value;
+		c.Age=document.getElementById('age').value;
+		c.University=document.getElementById('Uni').value;
+		c.Gender=document.getElementById('gender').value;
+		console.log(c);
+		document.getElementById('ok').innerText=Object.values(c);
+		//var h=document.createElement('h1');
+		//h.innerText=c;
+		//document.body.appendChild(Object.values(h));
+		}
+	</script>
+
+</head>
+<body>
+Enter Name<input type="text" id="name"><br>
+Enter Age<input type="text" id="age"><br>
+Enter Uni<input type="text" id="Uni"><br>
+Enter Gender<input type="text" id="gender"><br>
+<h1 id="ok"></h1>
+<button id="btn" onclick="fun()">Click It</button>
+</body>
+</html>

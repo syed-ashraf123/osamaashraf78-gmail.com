@@ -1,0 +1,40 @@
+<html>
+<head>
+	<script>
+		function scase(p) {
+			var a=Number(document.getElementById('n1').value);
+			var b=Number(document.getElementById('n2').value);
+			var btn=p.value;
+			var res =0;
+			switch(btn)
+			{
+			case '+':
+				res = a+b;
+				break;
+			case "-":
+				res=a-b;
+			break;
+			case "*":
+				res=a*b;
+			break;
+			case "/":
+				res=a/b;
+			break;
+			default:
+				res="Wrong";
+			break;
+			}
+			document.getElementById('ok').innerText=res;
+		}
+	</script>
+</head>
+<body>
+	<input type="number" id="n1">
+	<input type="number" id="n2"><br>
+<input type="button" id="t1" value="+" onclick="scase(this)">
+<input type="button" id="t2" value="-" onclick="scase(this)">
+<input type="button" id="t3" value="*" onclick="scase(this)">
+<input type="button" id="t4" value="/" onclick="scase(this)"><br>
+<span id="ok"></span>
+</body>
+</html>

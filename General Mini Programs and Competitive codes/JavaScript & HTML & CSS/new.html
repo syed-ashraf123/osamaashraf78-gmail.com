@@ -1,0 +1,34 @@
+
+<html>
+<head>
+	<script>
+		function butt()
+		 {
+			var a=document.getElementById('n1').value;
+			var b=document.getElementById('n2').value;
+			var c=document.getElementById('n3').value;
+			if (a>b){
+				if (a>c) {
+				document.getElementById('result').innerText=a+" is greater";
+			}
+			}
+			else if(b>c){
+				if (b>a) {
+				document.getElementById('result').innerText=b+" is greater"
+				}
+			}
+			else {
+					document.getElementById('result').innerText=c +" is greater"
+			}
+			}
+		
+	</script>
+</head>
+<body>
+	<input type="text" id="n1"><br>
+	<input type="text" id="n2"><br>
+	<input type="text" id="n3">
+	<input type="submit" onclick="butt()" id="but">
+<span id="result"></span>
+</body>
+</html>

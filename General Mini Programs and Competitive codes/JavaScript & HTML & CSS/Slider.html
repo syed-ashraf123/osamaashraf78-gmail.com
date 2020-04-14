@@ -1,0 +1,25 @@
+<html>
+<head>
+	<script>
+		var i=0;
+		var a=["Jellyfish.jpg","Desert.jpg","Koala.jpg","Lighthouse.jpg","Tulips.jpg"];
+		function slider() 
+		{
+			if(i>a.length-1)
+			{
+				i=0;
+			}
+			var img=document.getElementById('in');
+			img.src="images/"+a[i];
+			i++;
+			window.setTimeout("slider()",1000);
+		}
+
+	</script>
+</head>
+<body onload="slider()" >
+<div style="width: 1000px;height: 300px;background-color: blue;">
+	<img id="in" height="300px" width="1000px">
+</div>
+</body>
+</html>

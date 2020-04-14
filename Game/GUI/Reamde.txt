@@ -1,0 +1,2 @@
+Used Pygame for developing GUI for this game.
+Additional files are there like image and sound for supporting the GUI.

@@ -1,0 +1,15 @@
+a=[1,2,3,4]
+a.append(5)
+print(a)
+a.append([7,8,9])
+print(a)
+print(len(a))
+b=[1,2,3,4]
+b.extend([5,6,7,8])
+print(b)
+b.insert(2,"hi")
+print(b)
+b.insert(-1,"Hello")
+print(b)
+b.insert(len(b),"hi")
+print(b)

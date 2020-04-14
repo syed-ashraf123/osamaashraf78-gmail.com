@@ -1,0 +1,23 @@
+num=[1,5,7,9,8]
+print(num.index(5))
+num=[1,8,5,4,7,5,4,4]
+print(num.index(5,3))
+num=[1,8,5,4,7,5,4,4]
+print(num.index(5,0,3))
+print(num.count(4))
+num.reverse()
+print(num)
+num.sort()
+print(num)
+num=["ok","Syed","Well"]
+a=", ".join(num)
+print(a)
+#Slice
+a=[1,2,3,4]
+print(a[1:])
+a=[1,2,3,4]
+print(a[-1:])
+a=[1,2,3,4]
+print(a[0:3])
+a[0],a[1]=a[1],a[0]
+print(a)

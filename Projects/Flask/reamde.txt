@@ -1,0 +1,6 @@
+Run main.py
+Test-data & train-data are data on which is my model is trained.
+SQl files are there on how my database is created.
+Json file have all the column name.
+regressor_2latest22.pkl is my saved model through pickle 
+flk4 is my machine learning file where I trained my model.

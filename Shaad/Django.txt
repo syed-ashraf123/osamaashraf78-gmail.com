@@ -1,0 +1,6 @@
+1. We can make urls file for ech apps
+2. If yes, then we'll redirsct urls from main admin to apps
+3. Add few fields to settings for templates and static
+4. In models add Database
+5. Register that database in admin of that app
+6. Register app name in installed apps of settings 

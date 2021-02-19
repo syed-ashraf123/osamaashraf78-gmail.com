@@ -1,0 +1,42 @@
+export/cse02/msaad
+vcf
+vcftools
+minimac4 plink bcftools
+bcftools extract test ALL.chr22.phase3.sha
+c3$Gd3#h
+bcftools view or add | les in the end
+https://hbku.webex.com/join/msaad
+
+
+/home/local/QCRI/oashraf
+/export/cse02/msaad/OSAMA/ALL_SNPS
+npx create-react-app
+npm start
+
+
+bcftools query -l filename|less -S
+zpreg -v ""##
+bcftools index -t bigfilename.vcg.gz/for creating index
+
+
+
+
+
+First step: 1. Take the whole chr 22 file (2504 people, ~1M SNPs) 
+2. Select the list of 20,000 SNPs (chr, position) 
+3. Extract them from the original big file using bcftools 
+4. You end up having a file with 2504, and 20K SNPs  Reference data file. 
+5. You need to make a study sample file: extract another 2000 SNPs out of the 20K in the reference data.  Study file 
+6. Run imputation with minimac4/minimac3. To keep vcf format, use bcftools or vcftools. 
+Example: Bcftools –vcf File1M_SNPs.vcf --snps list_snps_20K –out NEW_20K.vcf 
+Bcftools –vcf NEW_20K.vcf –snps list_200SNPs –out …..
+
+
+
+
+
+ref-0-5008
+tag-gwshaps-rs rs position a0 a1
+
+
+

@@ -1,5 +1,100 @@
-const yaml=yaml.load(./api.yaml)
-const swaggerUI=require(swagger-ui-express
-app.use(fileUpload())
-file=req.files.file
-let uploadPath="/upload/"+filename
+Doctype is not case sensitive
+HTML4 -- <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+
+HTML5 -- <!DOCTYPE html>
+
+Tags -- <tagname>Content goes here...</tagname> 
+<Tag/>
+
+<head>  ---  The <head> element contains meta information about the HTML page
+<body>  ---   Visible Elements
+HTML tags are not case sensitive: <P> means the same as <p>.
+
+
+Elements - Which are visible 
+Attributes- Additional info of elements
+
+
+<p width="100px">Content</p> -- Attribute
+
+--------------------------
+Comments
+--------------------------
+<!-- Write your comments here -->
+
+
+--------------------------
+Heading
+--------------------------
+Headings are defined with the <h1> to <h6> tags.
+
+-------------------------
+Paragraph
+-------------------------
+<p>  --Element defines a paragraph.
+<pre> -- Includes spaces and line break
+
+
+------------------------
+Useful Tags
+------------------------
+<hr/> -- Horizontal rule Line
+<br/> -- Line Break
+&nbsp; -- Space between Scentences
+<center> -- Defines centered text
+
+-------------------------
+Formatting
+-------------------------
+<b> - Bold text
+<strong> - Important text
+<i> - Italic text
+<em> - Emphasized text
+<mark> - Marked text
+<small> - Smaller text
+<ins> - Inserted text
+<u>	Defines some text that is unarticulated and styled differently from normal text -- Mispleled text
+<code>  --	Defines a piece of computer code
+<var>	Defines a variable
+
+
+---------------------
+Time & Address
+---------------------
+<time>	Defines a specific time (or datetime)
+<address> -- Tag defines the contact information for the author/owner of a document or an article.
+
+--------------------
+Subscript & Superscript
+--------------------
+<sub> - Subscript text
+<sup> - Superscript text
+
+
+---------------------
+Quote & Cite
+---------------------
+<q cite="link">	Defines a short quotation
+<dfn>	--  Specifies a term that is going to be defined within the content
+The <abbr title="World Health Organization">WHO</abbr> was founded in 1948. -- Abbreviation
+<blockquote > Tag specifies a section that is quoted from another source.
+<cite>  --	Defines the title of a work
+
+
+----------------------
+Strike
+----------------------
+<s>  --  Defines text no longer correct
+<strike>  --  Its just a strike
+<del> -- Deleted text
+
+
+
+-------------------
+Progress 
+-------------------
+<progress>	Represents the progress of a task
+<progress id="file" value="32" max="100"> 32% </progress>
+<meter>  --  Defines a scalar measurement within a known range (a gauge)
+<meter id="disk_c" value="2" min="0" max="10"/>

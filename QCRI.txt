@@ -218,15 +218,19 @@ Control List Counting
 -----------------
 input Tags
 -----------------
+<input type="text" autofocus placeholder="value" readonly required> (default value)
 <input type="button">
 <input type="checkbox">
 <input type="color">
 <input type="date">
 <input type="datetime-local">
 <input type="email">
-<input type="file">
+<input type="file" accept="image/*">
+  <input type="file" id="files" name="files" multiple><br><br>
+
 <input type="hidden">
-<input type="image">
+<input type="image" alt="Submit">
+<input type="image" src="img_submit.gif" alt="Submit" width="48" height="48">
 <input type="month">
 <input type="number">
 <input type="password">
@@ -236,7 +240,26 @@ input Tags
 <input type="search">
 <input type="submit">
 <input type="tel">
-<input type="text"> (default value)
-<input type="time">
+
+<input type="time" disables>
 <input type="url">
 <input type="week">
+<input type="submit" formaction="/action_page2.php" value="Submit to another page">
+<input type="submit" formenctype="multipart/form-data" value="Submit as Multipart/form-data">
+
+<input list="browsers">
+
+<datalist id="browsers">
+  <option value="Internet Explorer">
+  <option value="Firefox">
+  <option value="Google Chrome">
+  <option value="Opera">
+  <option value="Safari">
+</datalist>
+
+  <input type="number" id="quantity" name="quantity" min="1" max="5"><br><br>
+    <input type="date" id="datemin" name="datemin" min="2000-01-02"><br><br>
+      <input type="date" id="datemax" name="datemax" max="1979-12-31"><br><br>
+  <input type="number" id="quantity" name="quantity" min="1" max="5"><br><br>
+
+ <input type="text" id="username" name="username" maxlength="10"><br><br>

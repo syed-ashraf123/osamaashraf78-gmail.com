@@ -109,3 +109,66 @@ Anchor Tag
 <a href="tel:75485658"> Tel
 <a href="/images/myw3schoolsimage.jpg" download="w3logo"> Download
 <a href="https://www.w3schools.com/html" ping="https://www.w3schools.com/trackpings"> Will send a post request to ping url
+
+------------------
+Image
+------------------
+<img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
+<img src="/w3images/mountainskies.jpg" alt="Mountains" style="width:100%" loading="lazy"> Lazy Loading
+longdesc="#w3htmlExplained" Attribut//Description
+
+
+------------------
+Table
+------------------
+<table>
+  <caption>Monthly savings</caption>
+  <tr>
+    <th>Name:</th>
+    <td>Bill Gates</td>
+  </tr>
+  <tr>
+    <th rowspan="2">Telephone:</th>
+    <td>55577854</td>
+  </tr>
+  <tr>
+    <td>55577855</td>
+  </tr>
+</table>
+
+The <table> tag defines an HTML table.
+
+Each table row is defined with a <tr> tag. Each table header is defined with a <th> tag. Each table data/cell is defined with a <td> tag.
+
+By default, the text in <th> elements are bold and centered.
+
+By default, the text in <td> elements are regular and left-aligned.
+
+<th colspan="2">Telephone</th>
+<th rowspan="2">Telephone:</th>
+
+
+<table>
+  <thead>
+    <tr>
+      <th>Month</th>
+      <th>Savings</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>January</td>
+      <td>$100</td>
+    </tr>
+    <tr>
+      <td>February</td>
+      <td>$80</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td>Sum</td>
+      <td>$180</td>
+    </tr>
+  </tfoot>
+</table>

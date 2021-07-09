@@ -98,3 +98,14 @@ Progress
 <progress id="file" value="32" max="100"> 32% </progress>
 <meter>  --  Defines a scalar measurement within a known range (a gauge)
 <meter id="disk_c" value="2" min="0" max="10"/>
+
+
+--------------------
+Anchor Tag
+--------------------
+<a href="http://google.com"> Link
+<a href="https://www.w3schools.com" target="_blank"/_self>Visit W3Schools</a> New Window
+<a href="mailto:syosas@gmail.com"> Mail
+<a href="tel:75485658"> Tel
+<a href="/images/myw3schoolsimage.jpg" download="w3logo"> Download
+<a href="https://www.w3schools.com/html" ping="https://www.w3schools.com/trackpings"> Will send a post request to ping url

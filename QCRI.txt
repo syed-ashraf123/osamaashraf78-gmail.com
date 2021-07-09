@@ -280,3 +280,24 @@ _parent	The response is displayed in the parent frame
 _top	The response is displayed in the full body of the window
 
 enctype="multipart/form-data"
+
+-----------------------------
+Video
+----------------------------
+
+<video width="320" height="240" autoplay muted>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video>
+
+controls
+
+-----------------------
+Audio
+-----------------------
+<audio controls autoplay muted>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>

@@ -263,3 +263,20 @@ input Tags
   <input type="number" id="quantity" name="quantity" min="1" max="5"><br><br>
 
  <input type="text" id="username" name="username" maxlength="10"><br><br>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+</form>
+<form action="/action_page.php" autocomplete="on">
+
+
+_blank	The response is displayed in a new window or tab
+_self	The response is displayed in the current window
+_parent	The response is displayed in the parent frame
+_top	The response is displayed in the full body of the window
+
+enctype="multipart/form-data"

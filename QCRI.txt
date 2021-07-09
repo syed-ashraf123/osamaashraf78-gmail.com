@@ -219,7 +219,7 @@ Control List Counting
 input Tags
 -----------------
 <input type="text" autofocus placeholder="value" readonly required> (default value)
-<input type="button">
+<input type="button" value="Add to favorites">
 <input type="checkbox">
 <input type="color">
 <input type="date">

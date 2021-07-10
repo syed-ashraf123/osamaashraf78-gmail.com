@@ -367,3 +367,9 @@ SVG is a W3C recommendation
   
     <polygon points="100,10 40,198 190,78 10,78 160,198"
   style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;" />
+  
+ ------------------------
+ EMoji
+ -----------------------
+ &#128512; &#128516; &#128525; &#128151;
+
